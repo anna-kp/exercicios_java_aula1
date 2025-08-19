@@ -1,0 +1,7 @@
+A classe Cliente é genérica e serve de base para Pessoa Física e Pessoa Jurídica, que têm diferenças principalmente na taxa de serviço. Isso facilita tratar todos os clientes de forma parecida, mas ainda respeitando suas particularidades.
+
+As Contas também seguem esse modelo: existe uma classe abstrata Conta, e dela surgem os tipos específicos. A Conta Corrente não rende nada, a Conta CDI tem rendimento diário e taxa fixa, e a Conta de Investimento Automático aplica o saldo em produtos, cobrando a taxa de acordo com o tipo de cliente.
+
+Os Produtos foram separados em Renda Fixa, que tem carência e rendimento definido, e Renda Variável, que usa um rendimento esperado. Isso deixa o sistema preparado para crescer, caso novos produtos precisem ser adicionados no futuro.
+
+Esse arranjo deixa o código mais organizado, fácil de manter e de expandir. Se for preciso criar um novo tipo de conta ou produto, basta fazer uma nova classe sem precisar mudar as que já existem.
