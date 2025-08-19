@@ -1,0 +1,3 @@
+Daria para trocar o uso de arrays por uma estrutura dinâmica como o ArrayList. Assim, não haveria limite fixo de pessoas e o sistema ficaria mais flexível. Também seria possível adicionar funções novas, como pesquisar, editar ou excluir pessoas já cadastradas.
+
+Outra melhoria seria organizar melhor o projeto em pacotes e, no futuro, integrar com uma interface gráfica ou até mesmo um banco de dados. Isso deixaria o sistema mais próximo de um software real usado no dia a dia e facilitaria a evolução do código com novos recursos.
